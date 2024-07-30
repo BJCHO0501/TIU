@@ -75,3 +75,6 @@
 - flex item의 순서를 정하는 속성
 - `order: {양수};` 의 형태로 사용하며 지정한 양수의 숫자가 작을 수록 앞으로 온다.
  ![[Pasted image 20240730181527.png]]
+
+
+> 참고: https://d2.naver.com/helloworld/8540176
