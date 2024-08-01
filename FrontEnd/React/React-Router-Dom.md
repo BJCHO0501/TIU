@@ -10,13 +10,13 @@
 ## React-Router를 사용하는 이유
 - HTML에는 `a`라는 태그를 사용해서 페이지를 이동하는 것이 가능하다.
 - 하지만 `a`태그를 사용하면 전체 페이지가 새로 로딩된다. 그로인해 깜박이는 현상이 발생하게 된다.
-- [[SPA - edit]] 사용자 경험을 향상시키는데 목적이 있다.
+- [[SPA]] 사용자 경험을 향상시키는데 목적이 있다.
 ## Roter의 종류
 #### HashRouter
 - URL의 해쉬(#)값을 이용하는 라우터
 - 검색 엔진이 읽지 못한다.
 - 별도의 서버 설정을 하지 않더라도 새로고침 시 오류가 발생하지 않는다. 이는 해쉬 라우터가 해쉬 뒤의 값은 브라우저에서만 관리하고 서버는 기본 url로 데이터를 요청하기 때문이다.
-- [[history API - edit]]를 사용하지 않기 때문에 동적 페이지에 불리하다.
+- [[history API]]를 사용하지 않기 때문에 동적 페이지에 불리하다.
 #### BrowserRouter
 - history API를 사용한다.
 - 별도의 서버 설정이 없다면 새로 고침시 404에러가 발생한다.
@@ -284,3 +284,9 @@ const [serchParams, setSearchParams] = useSearchParams();
 ``` js
 setSearchParams(serchParams);
 ```
+
+
+#### 참고
+---
+- https://velog.io/@koyk0408/React-react-router-dom-RouterProvider%EC%99%80-CreateBrowserRouter
+- https://velog.io/@kandy1002/React-Router-Dom-%EA%B0%9C%EB%85%90%EC%9E%A1%EA%B8%B0
