@@ -32,7 +32,7 @@
 // 메인 프로세스에서
 const { ipcMain } = require('electron');
 ipcMain.on('asynchronous-message', (event, arg) => {
-	console.log(arg); // "ping" 출려
+	console.log(arg); // "ping" 출력
 	event.reply('asynchronous-reply', 'pong');
 })
 
