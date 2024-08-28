@@ -1,3 +1,5 @@
+> 이 문서는 React-Native 0.75v을 기준으로 작성되었습니다.
+
 ## 설치 및 기본 세팅
 https://reactnative.dev/docs/set-up-your-environment?os=macos&platform=android
 - 공식 문서를 참고하여 세팅 진행
