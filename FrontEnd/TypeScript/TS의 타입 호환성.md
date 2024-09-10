@@ -2,7 +2,7 @@
 
 ### 1. 타입 호환성의 필요
 - 아래와 같이 `Food` 타입의 객체를 인자로 받아 칼로리를 구하는 `calculateCalorie` 함수가 있다고 하자.
-![[Pasted image 20240909112427.png]]
+![](image/Pasted%20image%2020240909112427.png)
 
 ``` ts
 type Food = {
@@ -20,7 +20,7 @@ function calculateCalorie(food: Food){
 ```
 
 - 만약 calculateCalorie 함수 인자에 여러가지 타입의 객체를 전달한다 가정할때, TS의 타입 시스템은 프로그램이 타입 오류를 일으킬 가능성을 검사하게 된다.
-![[Pasted image 20240909112721.png]]
+![](image/Pasted%20image%2020240909112721.png)
 - (1)의 경우, Food 타입과 동일하기 때문에 문제가 생기지 않는다.
 - (2)는 완전히 다른 타입이기 때문에 오류로 판단한다.
 - 그렇다면 (3)은 어떤식으로 판단하는 것이 좋을까?

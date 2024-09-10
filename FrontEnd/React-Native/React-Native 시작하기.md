@@ -27,11 +27,10 @@ cd ios/ && pod install
 npx react-native run-[ios / android]
 ```
 - 꼭 위 명령어로 실행해야 오류가 발생하지 않는다.
+![](images/Pasted%20image%2020240828124306.png)
 
-![[Pasted image 20240828124306.png]]
 - 해당 화면에서 원하는 OS 종류 선택 (iOS -> i, Android -> a)
-
-![[Pasted image 20240828143937.png]]
+![](images/Pasted%20image%2020240828143937.png)
 
 ## 문제 및 오류 대응
 ``` bash

@@ -1,5 +1,5 @@
 - React 생태계에서 사용하는 상태관리 라이브러리
-- Redux를 사용하기도 하지만 사용하기 쉽기 때문에 최근에는 Zustand를 많이 쓴다.
+- Redux를 사용하기도 하지만 용하기 쉽기 때문에 최근에는 Zustand를 많이 쓴다.
 ## 사용하는 이유
 ### 1. Props 드릴링
 ![](image/ReactDataFlow.png)

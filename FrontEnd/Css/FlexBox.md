@@ -23,58 +23,54 @@
 - row, row-reverse, column, colum-reverse
 - 기본값: `row`
 
-  ![[Pasted image 20240730115247.png]]
+  ![](images/Pasted%20image%2020240730115247.png)
 #### flex-wrap
 - flex item이 flex container을 벗어났을 때 줄을 바꾸는 속성
 - nowrap, wrap, wrap-reverse
 - 기본값: `nowrap`
 
-  ![[Pasted image 20240730115841.png]]
+  ![](images/Pasted%20image%2020240730115841.png)
 #### justify-content
 - 주축을 기준으로 flex item을 수평으로 정렬한다.
 - flex-start, center, flex-end, space-around, space-between
 - 기본값: `flex-start`
 
-![[Pasted image 20240730120428.png]]
+![](images/Pasted%20image%2020240730120428.png)
 > **justify-items 속성은 제안된 스펙은 존재하지만, 공식적으로 지원하지는 않는다고 한다.**
 
 #### align-items
 - 주축을 기준으로 flex item을 수직으로 정렬한다.
 - stretch, flex-start, center, baseline, flex-end
 - 기본값: `stretch`
- ![[Pasted image 20240730120702.png]]
+ ![](images/Pasted%20image%2020240730120702.png)
  
 ### align-content
 - flex item이 여러줄로 나열되어 있을 때 주축을 기준으로 수직 정렬 방법을 설정하는 속성
 - stretch, flex-start, center, flex-end, space-around, space-between
 - 기본값: `stretch`
- ![[Pasted image 20240730121214.png]]
-
+ ![](images/Pasted%20image%2020240730121214.png)
 ## Flex item Attributes
 #### flex-grow
 - flex item의 확장에 관련된 속성이다. 0과 양의 정수를 속성 값으로 사용한다.
 - 속성값이 0이면 flex container의 크기가 거져도 flex item의 크기가 커지지 않고 원래 크기로 유지된다.
 - 속성값이 1이면 원래 크기에 상관없이 flex container를 채우도록 flex item의 크기가 커진다.
 
-![[Pasted image 20240730123112.png]]
-
+![](images/Pasted%20image%2020240730123112.png)
 #### flex-shrink
 - flex item의 축소에 관련된 속성이다. 0과 양의 정수를 속성 값으로 사용한다. 
 - 기본값: `1`
 - 속성값이 0이면 flex container의 크기가 flex ite의 크기보다 작어져도 flex item의 크기가 줄어들지 않고 원래 크기로 유지된다.
 - 속성값이 1이상 이면 flex container의 크기가 flex item의 크기보다 작어질 때 container에 맞춰 item의 크기가 줄어든다.
- ![[Pasted image 20240730123401.png]]
-
+ ![](images/Pasted%20image%2020240730123401.png)
 #### flex-basis
 - flex item의 기본 크기를 결정하는 속성이다.
 - 기본값: `auto`
 - width 속성에서 사용하는 모든 단위를 사용 가능하다.
 - 속성을 0으로 설정하면 flex item은 절대적이 되어 flex container을 기준으로 크기가 결정된다.
- ![[Pasted image 20240730125022.png]]
+ ![](images/Pasted%20image%2020240730125022.png)
 #### order
 - flex item의 순서를 정하는 속성
 - `order: {양수};` 의 형태로 사용하며 지정한 양수의 숫자가 작을 수록 앞으로 온다.
- ![[Pasted image 20240730181527.png]]
-
+ ![](images/Pasted%20image%2020240730181527.png)
 
 > 참고: https://d2.naver.com/helloworld/8540176

@@ -1,4 +1,4 @@
-![[Pasted image 20240807183510.png]]
+![](images/Pasted%20image%2020240807183510.png)
 - electron의 핵심 구성요소로는 Chromium과 Node.js가 있다.
 - Chromium은 웹 페이지를 렌더링하는 엔진으로 Electron에서 프론트엔드 인터페이스를 구현한다. 즉, 웹 브라우저에서 볼 수 있는 모든 시각적 요소들을 만들고 조작하는 데 사용한다.
 - Node.js는 백엔드 개발에 주로 사용되는 환경으로, Electron내에서 Node.js를 통해 개발자는 사용자의 컴퓨터와 상호작용하는 데스크탑 애플리케이션을 만들 수 있다.
@@ -6,7 +6,7 @@
 
 ## Electron 애플리케이션의 작동 원리
 ---
-![[Pasted image 20240807184619.png]]
+![](images/Pasted%20image%2020240807184619.png)
 - Electron 애플리케이션은 메인 프로세스와 렌더러 프로세스 간의 효율적인 상호 작용에 의해 동작한다.
 ### Main Process
 - 메인 프로세스는 Electron 앱의 뇌이다.
