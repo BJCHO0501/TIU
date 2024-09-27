@@ -59,6 +59,7 @@
 
 ##### 2. 서버는 응답헤더에 Access-Control-Allow-Origin을 담아 클라이언트로 전달한다.
 - 이후 서버가 이 요청에 대한 응답을 할 때 응답 헤더에 `Access-Control-Allow-Origin`이라는 필도를 추가하고 값으로 **이 리소스를 접근하는 것이 허용된 출처 url**을 내려보낸다.
+
 ![](image/Pasted%20image%2020240927103047.png)
 
 ##### 3. 클라이언트에서 Origin과 서버가 보내준 Access-Control-Allow-Origin을 비교한다.
