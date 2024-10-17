@@ -114,7 +114,7 @@ if (isPerformingExcessPropertyChecks) {
 - 함수에 인자로 들어온 값이 `FreshLiteral` 인지 아닌지 여부에 따라 조건분기가 발생하여 타입 호환 허용 여부가 결정된다는 것을 확인할 수 있었다. 
 - 그렇다면 `FreshLiteral`은 무엇이며 왜 이 경우 타입 호환에 예외가 발생하도록 되어있을까?
 #### 2-2. FreshLiteral 이란?
-- TS는 구조적 서브타이핑에 기반한 타입 호환의 에외 조건과 관련하여 [[신선도(freshness) - edit|신선도(freshness)]]라는 개념을 제공한다. 
+- TS는 구조적 서브타이핑에 기반한 타입 호환의 에외 조건과 관련하여 [[신선도(freshness)|신선도(freshness)]]라는 개념을 제공한다. 
 - 모든 object literal은 초기에 "fresh"하다고 간주되며, 타입 단언을 하거나 타입 추론에 의해 object literal의 타입이 확장되면 "freshness" 가 사라지게 된다.
 - 특정 변수에 object literal을 할당하는 경우 이 2가지 중 한가지가 발생하게 되므로 "frechness"가 사라지게 되며, 함수에 인자로 object literal을 바로 전달하는 경우에는 "fresh"한 상태로 전달된다.
 - 즉, 처음 오류가 발생한 코드는 `fresh`하기 때문에 오류가 발생한 것이다.
