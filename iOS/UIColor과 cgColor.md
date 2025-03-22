@@ -8,9 +8,9 @@ CGColor은 색상 해석 방법을 지정하는 색상 공간과 함께 색상�
 그냥 말로만 봤을때, 둘다 색상에 관련된 무언가 라는건데..
 이둘의 확실한 차이점은 파생된 부분에서 확인할 수 있다.
 
-| UIkit > UIColor                      | Core Graphics > CGColor              |
-| ------------------------------------ | ------------------------------------ |
-| ![[UIColor path.png]] | ![[CGColor path.png]] |
+|     UIkit > UIColor     | Core Graphics > CGColor |
+| :---------------------: | :---------------------: |
+| ![](UIColor%20path.png) | ![](CGColor%20path.png) |
 UIColor와 CGColor은 파생된 프레임워크가 다르다는 것을 알 수 있다.
 
 그럼 CGColor가 파생된 저 Core Graphics는 과연 무엇일까?
